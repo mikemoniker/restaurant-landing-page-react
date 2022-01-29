@@ -101,6 +101,15 @@
   width: 45px;
 }
 
+.img-horizontal-flip {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
 @media screen and (min-width: 2000px) {
   .custom__button,
   .p__cormorant {

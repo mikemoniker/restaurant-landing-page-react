@@ -12,7 +12,7 @@ const AboutUs = () => (
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
-        <img src={images.spoon} alt="about_spoon" className="spoon__img" />
+        <img src={images.spoon} alt="about_spoon" className="spoon__img img-horizontal-flip" />
         <p className="p__opensans">Cupcake ipsum dolor sit amet fruitcake jujubes. Chocolate bar lollipop liquorice icing cotton candy gingerbread muffin cupcake. Lollipop tiramisu croissant biscuit pudding cake gingerbread candy. Chupa chups gingerbread sesame snaps soufflé lemon drops.</p>
         <button type="button" className="custom__button">Know More</button>
       </div>
